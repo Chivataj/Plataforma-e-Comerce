@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #b0d0da;
 }
@@ -6,14 +12,23 @@ body {
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   overflow: hidden;
   background-color: #ffffff;
+  font-weight: bold;
 }
 
 li {
   float: left;
+}
+
+.logo {
+  float: left;
+  padding: 14px;
+  padding-right: 90px;
+}
+
+.elementos-navegacion-derecha {
+  float: right;
 }
 
 li a {
@@ -23,17 +38,73 @@ li a {
   text-decoration: none;
 }
 
-.logo {
-  padding: 14px 16px;
-}
-
 .elemento-menu-navegacion {
   padding: 16px;
   padding-top: 34px;
   padding-bottom: 34px;
-  
+}
+
+div.elementos-navegacion-derecha {
+  padding: 16px;
+  padding-top: 34px;
+  padding-bottom: 34px;
+}
+
+a.elementos-derecha {
+  padding: 16px;
 }
 
 li a:hover {
   background-color: #c7c7c7;
+}
+
+/* Titulo registro */
+
+.titulo-registro {
+  text-align: center;
+  padding-top: 34px;
+}
+
+/* Formulario de registro */
+
+form {
+  width: 350px;
+  padding: 16px;
+  border-radius: 27px;
+  margin: auto;
+  background-color: #6e7aed;
+}
+
+label {
+  color: white;
+}
+
+div {
+  padding: 10px;
+}
+
+input {
+  margin-top: 8px;
+  padding: 2px;
+  padding-right: 110px;
+}
+
+button {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* pie de pagina */
+
+div.pie-pagina {
+  background-color: rgba(0, 0, 0, 0.61);
+  margin-top: 70px;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  height: 40px;
+  padding: 10px;
 }
