@@ -90,9 +90,12 @@ input {
 }
 
 button {
-  text-align: center;
   font-weight: bold;
   margin-top: 10px;
+}
+
+div.boton {
+  text-align: center;
 }
 
 /* pie de pagina */
