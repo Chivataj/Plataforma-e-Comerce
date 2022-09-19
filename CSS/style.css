@@ -1,0 +1,39 @@
+body {
+  background-color: #b0d0da;
+}
+
+/* menu de navegacion */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+.logo {
+  padding: 14px 16px;
+}
+
+.elemento-menu-navegacion {
+  padding: 16px;
+  padding-top: 34px;
+  padding-bottom: 34px;
+  
+}
+
+li a:hover {
+  background-color: #c7c7c7;
+}
